@@ -1,11 +1,12 @@
 import React, {  Component } from 'react';
+import Burger from '../../components/Burger/Burger'
 
-class BurguerBuilder extends Component{
+class BurgerBuilder extends Component{
     render(){
         return(
             <>
             <div>
-                Burguer
+                <Burger />
             </div>
             <div>
                 Ingredients selector
@@ -15,4 +16,4 @@ class BurguerBuilder extends Component{
     }
 }
 
-export default BurguerBuilder;
+export default BurgerBuilder;
